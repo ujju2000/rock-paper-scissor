@@ -1,0 +1,82 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F2937;
+    color : white;
+}
+
+nav {
+    background-color: #39495f;
+    height : 7vw;
+    text-align: center;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    color : rgb(239, 239, 50);
+    font-size: 1.4rem;
+    letter-spacing: .015rem;
+}
+
+main {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding : 20px;
+
+}
+main h2 {
+    font-size: 2rem;
+    padding : 10px;
+}
+main h4{
+    font-size: 1.8rem;
+}
+
+.display {
+    height : 200px;
+    width : 100%;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    margin : auto;
+    align-self: center;
+}   
+.icon {
+    font-size : 100px;
+}
+
+.score {
+    font-size : 30px;
+    margin-top: 20px;
+}
+
+.operations {
+    height : 150px;
+    display : flex; 
+    width : 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+.operator {
+    margin-top: 20%;
+    /* border : 2px solid red; */
+    font-size : 90px;
+    padding : 20px;
+    background-color: #39495f;
+    outline : none;
+    border-radius: 20%;
+    cursor : pointer;
+}
+.operator:hover {
+    background-color: #1F2937;
+}
+
+
+
+
